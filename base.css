@@ -1,0 +1,41 @@
+html, body {
+  font-size: 16px;
+}
+
+body {
+  padding: 1rem;
+}
+
+/* ====== */
+/* Icon */
+.icon {
+  display: inline-block;
+}
+
+.mascot {
+  width: 2rem;
+  height: 2rem;
+  background: url('./yuao.png') no-repeat center;
+  background-size: contain;
+  border: none;
+}
+
+/* ===== */
+/* Header */
+.header {
+  display: flex;
+}
+
+.header__title {
+  margin: 0;
+}
+
+.header__icon {
+  margin-right: 0.5rem;
+}
+
+/* ===== */
+/* Content */
+.content {
+  margin-top: 1.5rem;
+}
